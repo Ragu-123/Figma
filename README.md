@@ -34,278 +34,974 @@ Figma
 
 
 ## CODE:
-# HTML
-# HOME PAGE:
 ```
-<div style="width: 100%; height: 100%; position: relative; background: #B8BAC3">
-    <img style="width: 118px; height: 118px; left: -9px; top: 17px; position: absolute" src="https://via.placeholder.com/118x118" />
-    <div style="width: 387px; height: 111px; left: 46px; top: 36px; position: absolute">
-        <div style="width: 313px; height: 44px; left: 65px; top: 0px; position: absolute; color: #11120E; font-size: 15px; font-family: Inter; font-weight: 700; word-wrap: break-word">SAVEETHA  ENGINEERING COLLEGE<br/>                    </div>
-        <div style="width: 383.01px; height: 0px; left: 8px; top: 111px; position: absolute; border: 1px black solid"></div>
-        <div style="width: 383px; height: 0px; left: 8px; top: 111px; position: absolute; border: 1px black solid"></div>
-        <div style="width: 270px; height: 90px; left: 65px; top: 27px; position: absolute; color: #3A3B2F; font-size: 17px; font-family: Inter; font-weight: 400; word-wrap: break-word">           NIRF RANKED                                     AUTONOMOUS INSTUITION</div>
-    </div>
-    <div style="width: 151px; height: 36px; left: 197px; top: 579px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
-    <div style="width: 134px; height: 23px; left: 213px; top: 591px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word">More About Us-></div>
-    <div style="width: 389px; height: 0px; left: -21px; top: 676px; position: absolute; border: 1px black solid"></div>
-    <div style="width: 114px; height: 35px; left: 16px; top: 194px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 118px; height: 35px; left: 229px; top: 194px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 36px; top: 201px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 600; word-wrap: break-word">LOGIN-></div>
-    <div style="width: 110px; height: 21px; left: 229px; top: 202px; position: absolute; color: black; font-size: 18px; font-family: Inter; font-weight: 600; word-wrap: break-word">REGISTER-></div>
-    <div style="width: 296px; height: 178.77px; left: 17.50px; top: 282.19px; position: absolute"></div>
-    <img style="width: 381px; height: 318px; left: -13px; top: 239px; position: absolute" src="https://via.placeholder.com/381x318" />
-    <img style="width: 145px; height: 39px; left: 213px; top: 638px; position: absolute" src="https://via.placeholder.com/145x39" />
-    <div style="width: 438px; height: 0px; left: 368px; top: 677px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border: 1px black solid"></div>
-</div>
-```
+/* login page */
 
-# LOGIN PAGE:
-```
-<div style="width: 100%; height: 100%; position: relative; background: rgba(66.51, 64.83, 49.66, 0.81); border: 1px black solid">
-    <div style="width: 387px; height: 111px; left: 55px; top: 52px; position: absolute">
-        <div style="width: 313px; height: 44px; left: 65px; top: 0px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word">SAVEETHA  ENGINEERING COLLEGE<br/>                    </div>
-        <div style="width: 383.01px; height: 0px; left: 8px; top: 111px; position: absolute; border: 1px black solid"></div>
-        <div style="width: 383px; height: 0px; left: 8px; top: 111px; position: absolute; border: 1px black solid"></div>
-        <div style="width: 270px; height: 90px; left: 65px; top: 27px; position: absolute; color: white; font-size: 17px; font-family: Inter; font-weight: 400; word-wrap: break-word">           NIRF RANKED                                     AUTONOMOUS INSTUITION</div>
-    </div>
-    <img style="width: 118px; height: 118px; left: -4px; top: 20px; position: absolute" src="https://via.placeholder.com/118x118" />
-    <div style="width: 201px; height: 48px; left: 92px; top: 442px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 171px; height: 27px; left: 118px; top: 452px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word">       LOGIN<br/></div>
-    <div style="width: 335px; height: 46px; left: 25px; top: 254px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 174px; height: 21px; left: 41px; top: 267px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">USERNAME</div>
-    <div style="width: 335px; height: 49px; left: 25px; top: 329px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 145px; height: 26px; left: 39px; top: 339px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">PASSWORD</div>
-    <div style="width: 203px; height: 22px; left: 176px; top: 611px; position: absolute; color: white; font-size: 15px; font-family: Inter; font-weight: 400; word-wrap: break-word">Already have an account-><br/></div>
-    <div style="width: 445px; height: 0px; left: 0px; top: 232px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 1px white solid"></div>
-</div>
-```
+box-sizing: border-box;
 
-# EVENT REGISTRATION:
-```
-<div style="width: 100%; height: 100%; position: relative; background: rgba(195.02, 212.74, 247.12, 0.57)">
-    <img style="width: 46px; height: 41px; left: 119.96px; top: 157.44px; position: absolute; transform: rotate(-179.78deg); transform-origin: 0 0" src="https://via.placeholder.com/46x41" />
-    <img style="width: 118px; height: 118px; left: -0.49px; top: 10.98px; position: absolute" src="https://via.placeholder.com/118x118" />
-    <div style="width: 387px; height: 111px; left: 55.42px; top: 35.20px; position: absolute">
-        <div style="width: 313px; height: 44px; left: 65px; top: 0px; position: absolute; color: #11120E; font-size: 15px; font-family: Inter; font-weight: 700; word-wrap: break-word">SAVEETHA  ENGINEERING COLLEGE<br/>                    </div>
-        <div style="width: 383.01px; height: 0px; left: 8px; top: 111px; position: absolute; border: 1px black solid"></div>
-        <div style="width: 383px; height: 0px; left: 8px; top: 111px; position: absolute; border: 1px black solid"></div>
-        <div style="width: 270px; height: 90px; left: 65px; top: 27px; position: absolute; color: #3A3B2F; font-size: 17px; font-family: Inter; font-weight: 400; word-wrap: break-word">           NIRF RANKED                                     AUTONOMOUS INSTUITION</div>
-    </div>
-    <div style="left: 134.96px; top: 155.50px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word">DRESTEIN 23</div>
-    <div style="left: 133.98px; top: 152.49px; position: absolute; color: black; font-size: 20px; font-family: Inter; font-weight: 800; word-wrap: break-word"><br/>AI ML</div>
-    <div style="width: 327px; height: 29px; left: 30.67px; top: 233.10px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 302px; height: 23px; left: 48.65px; top: 239.17px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 800; word-wrap: break-word">                 EVENT      REGISTRATION</div>
-    <div style="width: 327px; height: 33px; left: 16.40px; top: 305.05px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 327px; height: 33px; left: 15.49px; top: 547.05px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 27.46px; top: 555.09px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 300; word-wrap: break-word">EVENT NAME</div>
-    <div style="width: 327px; height: 33px; left: 15.70px; top: 491.05px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 327px; height: 33px; left: 15.93px; top: 431.05px; position: absolute; background: #D9D9D9"></div>
-    <div style="left: 314.66px; top: 501.17px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 800; word-wrap: break-word">^</div>
-    <div style="width: 327px; height: 33px; left: 16.18px; top: 364.05px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 171px; height: 29px; left: 24.37px; top: 312.08px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 300; word-wrap: break-word">NAME</div>
-    <div style="width: 168px; height: 35px; left: 24.16px; top: 370.08px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 300; word-wrap: break-word">YEAR</div>
-    <div style="width: 171px; height: 29px; left: 23.89px; top: 440.08px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 300; word-wrap: break-word">DEPARTMENT</div>
-    <div style="width: 201px; height: 32px; left: 23.66px; top: 501.08px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 300; word-wrap: break-word">COLLEGE NAME              </div>
-    <div style="width: 34.01px; height: 0px; left: 304.18px; top: 364.13px; position: absolute; transform: rotate(88.53deg); transform-origin: 0 0; border: 1px black solid"></div>
-    <div style="width: 37.01px; height: 0px; left: 303.92px; top: 433.13px; position: absolute; transform: rotate(88.67deg); transform-origin: 0 0; border: 1px black solid"></div>
-    <div style="width: 37.01px; height: 0px; left: 304.70px; top: 491.14px; position: absolute; transform: rotate(88.67deg); transform-origin: 0 0; border: 1px black solid"></div>
-    <div style="width: 37.01px; height: 0px; left: 305.49px; top: 548.14px; position: absolute; transform: rotate(88.67deg); transform-origin: 0 0; border: 1px black solid"></div>
-    <div style="left: 313.89px; top: 440.17px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 800; word-wrap: break-word">^</div>
-    <div style="left: 314.16px; top: 370.17px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 800; word-wrap: break-word">^</div>
-    <div style="left: 313.47px; top: 553.17px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 800; word-wrap: break-word">^</div>
-    <div style="width: 180px; height: 30px; left: 162.27px; top: 606.60px; position: absolute; background: #D9D9D9"></div>
-    <div style="width: 172px; height: 32px; left: 224.25px; top: 610.84px; position: absolute; color: black; font-size: 15px; font-family: Inter; font-weight: 800; word-wrap: break-word">REGISTER</div>
-</div>
-```
+position: relative;
+width: 383px;
+height: 677px;
 
-## STYLE
-# HOME 
-```
-// SAVEETHA  ENGINEERING COLLEGE<br/>                    
+background: rgba(67, 65, 50, 0.81);
+border: 1px solid #000000;
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 387px;
+height: 111px;
+left: 55px;
+top: 52px;
+
+
+
+/* SAVEETHA ENGINEERING COLLEGE */
+
+position: absolute;
+width: 313px;
+height: 44px;
+left: 65px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 383.01px;
+height: 0px;
+left: 8px;
+top: 111px;
+
+border: 1px solid #000000;
+transform: rotate(0.45deg);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 383px;
+height: 0px;
+left: 8px;
+top: 111px;
+
+border: 1px solid #000000;
+
+
+/* NIRF RANKED AUTONOMOUS INSTUITION */
+
+position: absolute;
+width: 270px;
+height: 90px;
+left: 65px;
+top: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+
+/* saveetha logo 1 */
+
+position: absolute;
+width: 118px;
+height: 118px;
+left: -4px;
+top: 20px;
+
+background: url(EXJi3-h4_400x400.jpg);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 201px;
+height: 48px;
+left: 92px;
+top: 442px;
+
+background: #D9D9D9;
+
+
+/* LOGIN */
+
+position: absolute;
+width: 171px;
+height: 27px;
+left: 118px;
+top: 452px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 335px;
+height: 46px;
+left: 25px;
+top: 254px;
+
+background: #D9D9D9;
+
+
+/* USERNAME */
+
+position: absolute;
+width: 174px;
+height: 21px;
+left: 41px;
+top: 267px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 335px;
+height: 49px;
+left: 25px;
+top: 329px;
+
+background: #D9D9D9;
+
+
+/* PASSWORD */
+
+position: absolute;
+width: 145px;
+height: 26px;
+left: 39px;
+top: 339px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Already have an account-> */
+
+position: absolute;
+width: 203px;
+height: 22px;
+left: 176px;
+top: 611px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFFFFF;
+
+
+
+/* Line 12 */
+
+position: absolute;
+width: 445px;
+height: 0px;
+left: 0px;
+top: 232px;
+
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+
+
+/* Home page */
+
+position: relative;
+width: 368px;
+height: 677px;
+
+background: #B8BAC3;
+
+
+/* saveetha logo 2 */
+
+position: absolute;
+width: 118px;
+height: 118px;
+left: -9px;
+top: 17px;
+
+background: url(EXJi3-h4_400x400.jpg);
+
+
+/* Frame 2 */
+
+position: absolute;
+width: 387px;
+height: 111px;
+left: 46px;
+top: 36px;
+
+
+
+/* SAVEETHA ENGINEERING COLLEGE */
+
+position: absolute;
+width: 313px;
+height: 44px;
+left: 65px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
 color: #11120E;
- font-size: 15px;
- font-family: Inter;
- font-weight: 700;
- word-wrap: break-word
----
-//            NIRF RANKED                                     AUTONOMOUS INSTUITION
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 383.01px;
+height: 0px;
+left: 8px;
+top: 111px;
+
+border: 1px solid #000000;
+transform: rotate(0.45deg);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 383px;
+height: 0px;
+left: 8px;
+top: 111px;
+
+border: 1px solid #000000;
+
+
+/* NIRF RANKED AUTONOMOUS INSTUITION */
+
+position: absolute;
+width: 270px;
+height: 90px;
+left: 65px;
+top: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
 color: #3A3B2F;
- font-size: 17px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
----
-// More About Us->
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 600;
- word-wrap: break-word
----
-// LOGIN->
-color: black;
- font-size: 18px;
- font-family: Inter;
- font-weight: 600;
- word-wrap: break-word
----
-// REGISTER->
-color: black;
- font-size: 18px;
- font-family: Inter;
- font-weight: 600;
- word-wrap: break-word
-```
-# LOGIN:
-```
-// SAVEETHA  ENGINEERING COLLEGE<br/>                    
-color: white;
- font-size: 15px;
- font-family: Inter;
- font-weight: 600;
- word-wrap: break-word
----
-//            NIRF RANKED                                     AUTONOMOUS INSTUITION
-color: white;
- font-size: 17px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
----
-//        LOGIN<br/>
-color: black;
- font-size: 20px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
----
-// USERNAME
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
----
-// PASSWORD
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
----
-// Already have an account-><br/>
-color: white;
- font-size: 15px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
-```
-# EVENT REGISTRATION:
-```
-// SAVEETHA  ENGINEERING COLLEGE<br/>                    
+
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 151px;
+height: 36px;
+left: 197px;
+top: 579px;
+
+background: #D9D9D9;
+
+
+/* More About Us-> */
+
+position: absolute;
+width: 134px;
+height: 23px;
+left: 213px;
+top: 591px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Line 3 */
+
+position: absolute;
+width: 389px;
+height: 0px;
+left: -21px;
+top: 676px;
+
+border: 1px solid #000000;
+transform: rotate(0.16deg);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 114px;
+height: 35px;
+left: 16px;
+top: 194px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 118px;
+height: 35px;
+left: 229px;
+top: 194px;
+
+background: #D9D9D9;
+
+
+/* LOGIN-> */
+
+position: absolute;
+width: 73px;
+height: 22px;
+left: 36px;
+top: 201px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* REGISTER-> */
+
+position: absolute;
+width: 110px;
+height: 21px;
+left: 229px;
+top: 202px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 296px;
+height: 178.77px;
+left: 17.5px;
+top: 282.19px;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 381px;
+height: 318px;
+left: -13px;
+top: 239px;
+
+background: url(download.jpg);
+
+
+/* download 1 */
+
+position: absolute;
+width: 145px;
+height: 39px;
+left: 213px;
+top: 638px;
+
+background: url(download.png);
+
+
+/* Line 11 */
+
+position: absolute;
+width: 438px;
+height: 0px;
+left: 368px;
+top: 677px;
+
+border: 1px solid #000000;
+transform: rotate(-90deg);
+
+
+/* EVENT REGISTRATION */
+
+position: relative;
+width: 381.32px;
+height: 676.99px;
+
+background: rgba(195, 213, 247, 0.57);
+transform: rotate(-0.22deg);
+
+
+/* download (1) 1 */
+
+position: absolute;
+width: 46px;
+height: 41px;
+left: 120.55px;
+top: 158.42px;
+
+background: url(download (1).png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* saveetha logo 3 */
+
+position: absolute;
+width: 118px;
+height: 118px;
+left: -0.45px;
+top: 12.42px;
+
+background: url(EXJi3-h4_400x400.jpg);
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 387px;
+height: 111px;
+left: 55.55px;
+top: 36.42px;
+
+
+
+/* SAVEETHA ENGINEERING COLLEGE */
+
+position: absolute;
+width: 313px;
+height: 44px;
+left: 65px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
 color: #11120E;
- font-size: 15px;
- font-family: Inter;
- font-weight: 700;
- word-wrap: break-word
----
-//            NIRF RANKED                                     AUTONOMOUS INSTUITION
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 383.01px;
+height: 0px;
+left: 8px;
+top: 111px;
+
+border: 1px solid #000000;
+transform: rotate(0.45deg);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 383px;
+height: 0px;
+left: 8px;
+top: 111px;
+
+border: 1px solid #000000;
+
+
+/* NIRF RANKED AUTONOMOUS INSTUITION */
+
+position: absolute;
+width: 270px;
+height: 90px;
+left: 65px;
+top: 27px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
 color: #3A3B2F;
- font-size: 17px;
- font-family: Inter;
- font-weight: 400;
- word-wrap: break-word
----
-// DRESTEIN 23
-color: black;
- font-size: 20px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// <br/>AI ML
-color: black;
- font-size: 20px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-//                  EVENT      REGISTRATION
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// EVENT NAME
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 300;
- word-wrap: break-word
----
-// ^
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// NAME
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 300;
- word-wrap: break-word
----
-// YEAR
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 300;
- word-wrap: break-word
----
-// DEPARTMENT
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 300;
- word-wrap: break-word
----
-// COLLEGE NAME              
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 300;
- word-wrap: break-word
----
-// ^
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// ^
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// ^
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
----
-// REGISTER
-color: black;
- font-size: 15px;
- font-family: Inter;
- font-weight: 800;
- word-wrap: break-word
+
+
+
+/* DRESTEIN 23 */
+
+position: absolute;
+width: 130px;
+height: 24px;
+left: 135.55px;
+top: 156.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* AI ML */
+
+position: absolute;
+width: 56px;
+height: 48px;
+left: 134.55px;
+top: 153.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 327px;
+height: 29px;
+left: 31.55px;
+top: 234.42px;
+
+background: #D9D9D9;
+
+
+/* EVENT REGISTRATION */
+
+position: absolute;
+width: 302px;
+height: 23px;
+left: 49.55px;
+top: 240.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 327px;
+height: 33px;
+left: 17.55px;
+top: 306.42px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 327px;
+height: 33px;
+left: 17.55px;
+top: 548.42px;
+
+background: #D9D9D9;
+
+
+/* EVENT NAME */
+
+position: absolute;
+width: 97px;
+height: 18px;
+left: 29.55px;
+top: 556.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 327px;
+height: 33px;
+left: 17.55px;
+top: 492.42px;
+
+background: #D9D9D9;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 327px;
+height: 33px;
+left: 17.55px;
+top: 432.42px;
+
+background: #D9D9D9;
+
+
+/* ^ */
+
+position: absolute;
+width: 8px;
+height: 18px;
+left: 316.55px;
+top: 501.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 327px;
+height: 33px;
+left: 17.55px;
+top: 365.42px;
+
+background: #D9D9D9;
+
+
+/* NAME */
+
+position: absolute;
+width: 171px;
+height: 29px;
+left: 25.55px;
+top: 313.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* YEAR */
+
+position: absolute;
+width: 168px;
+height: 35px;
+left: 25.55px;
+top: 371.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* DEPARTMENT */
+
+position: absolute;
+width: 171px;
+height: 29px;
+left: 25.55px;
+top: 441.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* COLLEGE NAME */
+
+position: absolute;
+width: 201px;
+height: 32px;
+left: 25.55px;
+top: 502.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Line 13 */
+
+position: absolute;
+width: 34.01px;
+height: 0px;
+left: 305.55px;
+top: 364.42px;
+
+border: 1px solid #000000;
+transform: rotate(88.32deg);
+
+
+/* Line 14 */
+
+position: absolute;
+width: 37.01px;
+height: 0px;
+left: 305.55px;
+top: 433.42px;
+
+border: 1px solid #000000;
+transform: rotate(88.45deg);
+
+
+/* Line 15 */
+
+position: absolute;
+width: 37.01px;
+height: 0px;
+left: 306.55px;
+top: 491.42px;
+
+border: 1px solid #000000;
+transform: rotate(88.45deg);
+
+
+/* Line 16 */
+
+position: absolute;
+width: 37.01px;
+height: 0px;
+left: 307.55px;
+top: 548.42px;
+
+border: 1px solid #000000;
+transform: rotate(88.45deg);
+
+
+/* ^ */
+
+position: absolute;
+width: 8px;
+height: 18px;
+left: 315.55px;
+top: 440.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* ^ */
+
+position: absolute;
+width: 8px;
+height: 18px;
+left: 315.55px;
+top: 370.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* ^ */
+
+position: absolute;
+width: 8px;
+height: 18px;
+left: 315.55px;
+top: 553.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 180px;
+height: 30px;
+left: 164.55px;
+top: 607.42px;
+
+background: #D9D9D9;
+
+
+/* REGISTER */
+
+position: absolute;
+width: 172px;
+height: 32px;
+left: 226.55px;
+top: 611.42px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+
+
+
+/* Line 4 */
+
+position: absolute;
+width: 383px;
+height: 0px;
+
+border: 1px solid #000000;
+
+
+/* Line 5 */
+
+position: absolute;
+width: 368px;
+height: 0px;
+
+border: 1px solid #000000;
+
+
+/* Line 6 */
+
+position: absolute;
+width: 384px;
+height: 0px;
+
+border: 1px solid #4A4747;
+
+
+/* Line 7 */
+
+position: absolute;
+width: 384px;
+height: 0px;
+
+border: 1px solid #000000;
+
+
+/* Line 8 */
+
+position: absolute;
+width: 422px;
+height: 0px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+
+/* Line 9 */
+
+position: absolute;
+width: 256px;
+height: 0px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+
+/* Line 10 */
+
+position: absolute;
+width: 256px;
+height: 0px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
 ```
 
 ## OUTPUT:
