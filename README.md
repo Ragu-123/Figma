@@ -1005,9 +1005,12 @@ transform: rotate(90deg);
 ```
 
 ## OUTPUT:
+![image](https://github.com/Ragu-123/Figma/assets/113915622/06347b45-87ec-4db6-a3ff-b1f503234d58)
 ![WhatsApp Image 2023-11-08 at 22 02 47_22459881](https://github.com/Ragu-123/Figma/assets/113915622/c477660a-69c0-4b9c-b3bd-e61008966cd3)
 ![WhatsApp Image 2023-11-08 at 22 03 20_7c832fc8](https://github.com/Ragu-123/Figma/assets/113915622/bc798c31-c3bb-49f5-b644-5fd2db211435)
 ![WhatsApp Image 2023-11-08 at 22 04 25_4c43098c](https://github.com/Ragu-123/Figma/assets/113915622/f06366de-9d2e-4122-836b-5f2e8c2b3a91)
+
+
 
 
 
